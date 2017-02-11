@@ -1,0 +1,120 @@
+﻿
+header { 
+font-family: Garamond, san-serif;
+}
+
+header h1 { 
+ font-weight: bold; font-size: 2.5em;
+}
+
+body {
+ font: 12pt "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+ /*background-color: #483D8B;  dark slate blue*/
+ color: #336666;
+ border: 5em;
+}
+
+footer {
+ min-width: 1070pt;
+ text-align: center;
+}
+ 
+.headerName {
+ text-align: center;
+}
+
+.mainNavigation li {
+ padding: 2em;
+}
+
+.homeContents  p{
+ font-size: 30pt;
+ font-weight: 700;
+ font-family: "Arial Black", Gadget, sans-serif;
+ text-align: center;
+}
+
+
+.ffContents {
+ font-family: "Arial Black", Gadget, sans-serif;
+ font-weight: bold;
+ color: #2F4F4F;
+}
+.ffContents h2{
+ font-size: 3em;
+ font-weight: bold;
+ text-align: center;
+ line-height: 1em;
+}
+.ffContents  p {
+ text-align: center;
+ padding: 4em;
+ color: #2F4F4F;
+} 
+
+.charContents {
+ width: 780pt;
+ font-family: "Arial Black", Gadget, sans-serif ;
+ color: #3333CC; 
+ }
+.charTitle{
+ text-align: center;
+}
+
+.top {
+ text-align: right;
+}
+ 
+.storyContents h2{
+  font-family: ‘Trebuchet MS’, Helvetica, sans-serif;
+  color: #2F4F4F;
+  font-weight: 700;
+  font-size: 36pt;
+  text-align: center;
+}
+.storyContents p{
+  font-family: ‘Trebuchet MS’, Helvetica, sans-serif;
+  color: black;
+  line-height: 1.75em;
+}
+
+.imageContents {
+
+}
+
+.imageContents ul {
+ text-align: center;
+}
+
+.ssBold {
+ font-family: "Arial Black", Gadget, sans-serif ;
+ color: #483D8B;
+ font-size: 40pt;
+ font-weight; 900;
+}
+
+.ulContents {
+ line-height: 2.35em;
+}
+.ulContents h2 {
+ text-align: center;
+ font-family: Century Gothic, sans-serif;
+ font-weight: 900;
+ font-size: 30pt;
+ line-height: 1.5em;
+ }
+.ulContents ul li {
+ list-style-type: circle;
+}
+
+
+.forum h2 {
+ text-align: center;
+ font-family: Century Gothic, sans-serif;
+ font-weight: 900;
+ font-size: 30pt;
+}
+
+.coverContents{
+ text-align: center;
+}
