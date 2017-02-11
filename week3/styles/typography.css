@@ -1,0 +1,42 @@
+/* Joon Jung, BIT 112, Spring 2014 */
+/* CSS Formatting Document */
+
+body { color: #000000; background-color: #FFFFFF;font-family: Georgia, "Times New Roman", Times, serif; font-size: 12pt}
+body { margin: 5px; border: solid thick black; padding: 0; }
+a:link { color: #084048; }
+a:visited { color: #10A7A5; }
+a:hover { color: #CC3300; }
+dl dt { font-size: 1.1em; font-weight: bold; color: #CC3300; margin-top: 5pt; margin-bottom: 5pt; margin-left: 5pt; margin-right: 5pt; }
+dl dd { padding-bottom: 25px; margin-left: 50px; }
+
+header { background-image: url(../images/przlogo.gif); background-position: left top; background-repeat: no-repeat; padding-left: 250px; }
+header section { font-family: Garamond, serif; }
+header h1 { font-weight: bold; font-size: 2em; }
+header h2 { font-style: italic; font-size: 1.6em; text-align: center; }
+
+nav { font-family: Gil Sans, Arial, Helvetica, sans-serif; font-size: 1.2em;
+	padding-top: 10px; padding-bottom: 10px; padding-left: 20px; padding-right: 20px; }
+nav ul li { display: inline; padding: .2em 1em; border-right: solid thin #084048; }
+
+/* I added font-weight bold here because to match with screen shot. However, instruction did not specify it.*/
+#content h1, h2, h3 { font-weight: bold; font-family: Gil Sans, Arial, Helvetica, sans-serif; }
+#content h1 { font-size: 1.5em; }
+#content h2 { font-size: 1.3em; }
+#content h3 { font-size: 1.1em; }
+#content { background-image: url(../images/prz_watermark.gif); background-position: right center; background-repeat: no-repeat; }
+#content { padding-right: 20px; padding-left: 20px; padding-top: 20px; padding-bottom: 20px; }
+#content ol  { list-style-type: upper-roman; }
+#content ol  ol { list-style-type: lower-alpha; }
+#content ol { padding-bottom: 0.8em; margin-left: 3em; } /* I added margin-left in order to nest list. Otherwise it did not indent proper way.*/
+
+/* I added line section here to 2em.*/
+.bigger { font-size: 1.1em; padding-bottom: 0.5em; padding-top: 0.5em; line-height: 2em; }
+
+footer { background-color: #A1D1D1; padding-bottom: 15px; padding-top: 15px; padding-left: 15px; padding-right: 15px; }
+footer p { font-weight: bold; font-size: 0.8em; text-align: center; line-height: 1.1em; }
+
+/* added ul in the selector */
+p, h1, h2, ul { padding-bottom: 0.8em; }
+
+/* I modified margin-left 15pt to 30pt because it did not reflect enough on my page.*/
+section ul li { list-style-type:disc; padding-bottom: .1em; margin-left: 30pt; }

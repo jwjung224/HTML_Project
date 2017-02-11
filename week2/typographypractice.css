@@ -1,0 +1,19 @@
+﻿/* this css file is only for css_lab_external in week 2 folder*/
+
+body {
+ background: #C0CCC1;
+ padding: 20px;
+ }
+
+
+ h2 {
+ font-size: x-large;
+ text-transform: lowercase;
+ text-decoration: underline;
+ color: yellow;
+ }
+
+
+ .selector, .declaration, .property, .value, .rule {
+ font-family:"Courier New", Courier, monospace;
+ }

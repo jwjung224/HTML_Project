@@ -1,0 +1,34 @@
+﻿/* Joon Jung, BIT 112, Spring 2014 */
+
+body { position: relative; min-width: 1300px; padding: 2em 2em; } /* min-width make fixed whole web page*/
+
+.sectionweek6 { margin: 1em 0 1em 0; border-bottom: solid thick silver; }
+
+.headerName { position: relative; left: 540px; }
+
+.headerName2 { position: relative; left: 40px; }
+
+.mainNavigation { float: left; padding: 1em 10em 1em 1em; width: 22em; margin: 2em 0 0 23em;}
+
+.titleSign { float: left; margin: 0 0 0 -13em;}
+
+.rememberPicture{ float: left; padding: 2em; margin: 2em 0 0 -11em; }
+
+.rememberContext { float: left; margin: 22em 0 0 -20em; }
+
+.bodyContext { border: 0.3em solid silver; padding: 0.7em; margin: 1em;}
+
+.bodyContext p { text-indent: 2em; }
+
+.bodyContextWeek { border: 0.3em solid silver; padding: 0.7em; margin: 1em;}
+
+.bodyContextH2 { color: #99FF99; }
+
+.date { float: left; border: none; margin: 0 0 0 -2em; }
+
+table, th, td{
+border: 2px solid white;
+background-color: rgba(21,99,171,.25); /*same as #1563AB;*/
+}
+
+footer { clear: both; padding-top: 3em; text-align: center; }

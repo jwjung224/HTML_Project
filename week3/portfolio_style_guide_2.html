@@ -1,0 +1,125 @@
+﻿<!DOCTYPE html>
+
+<!-- Joon Jung, BIT 112, Spring 2014 -->
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name= "author" content="joonjung" />
+	
+	<title>Portfolio Style Guide</title>
+	<link rel="stylesheet" href="../styles/typography.css" />
+	
+	<!-- I used internal style here
+	<style>
+	
+		body{
+		background: chocolate ;
+		border: solid thick snow;
+		}
+		
+		h1{
+		font-size: 3em;
+		text-align: center;
+		color: moccasin;
+		padding-bottom: 1em;
+		}
+		
+		nav{
+		font-family: "trebuchet ms", helvetica, sans-serif;
+		}
+		
+		h2{
+		font-weight: bold;
+		font-size: 1.5em;		
+		margin-left: 10pt;
+		}
+		
+		ul li{
+		margin-left: 30pt;
+		color: powderblue;
+		}			
+		
+		p{
+		font-weight: bold;
+		margin-left: 60pt;
+		color: maroon;
+		}
+		-->
+	</style>
+</head>
+
+<body>
+
+<header>
+	<h1>Portfolio Style Guide</h1>
+</header>
+
+<nav>	
+	<h2> Overall Page Fomatting </h2>
+	<ul>
+	<li> font size is 12 point in general. background embedded dog's footprint image. Font set by comic sans ms at first if any web browser can't recognize comic then, it uses arial.
+		 If arial also does not work either then, it uses sans-serif font.</li>
+	</ul>
+	<p> body { font: 12pt comic sans, arial, sans-seif; background: url(../images/footprint.jpg); } </p>
+	
+	<h2> Header Section </h2>
+	<ul>
+	<li> h1 in header makes background color as yellow and text aline at center. Also, all text Capitalized with navy color.</li>
+	</ul>
+	<p> header h1 { background-color: yellow; text-align: center; text-transform: uppercase; color: navy;} </p>
+	<ul>
+	<li> h2 in header makes all text first character is little bigger than other character in one word. Also, all texts are underlined.</li>
+	</ul>
+	<p> header h2 { font-variant: small-caps; text-decoration: underline; }</p>	
+	
+	<h2> Nav Section </h2>
+	<ul>
+	<li> Unorderd list in nav set font as bold and background color as RGB 70,70,30 with 35% of transparent. Also, background margin both left and right from 50 points and space between line is two times of parent's font size.</li>
+	</ul>
+	<p> nav ul { font-weight: bold; background-color: rgba(70,70,30, 0.35); 
+	margin-left: 50pt; margin-right: 50pt; line-height: 2em; }</p>
+	
+	
+	<h2> Content Section </h2>
+	<p> I did not create specific Content ID but these selectors are what I use it for content.</p>
+	<ul>
+	<li> p use navy color. font is Arial first, if not working then use helvetic, 
+	     if both prior fonts not working then,	use sans-serif font.</li>
+	</ul>
+	<p> p { font-family: arial, helvetica, sans-serif; color: navy; }</p>
+	<ul>
+	<li> ul use font is comic first, if not working then use arial, 
+	     if both prior fonts not working then, use sans-serif font. This has size 12 points</li>
+	</ul>
+	<p> ul { font: 12pt comic sans, arial, sans-seif; color: navy; }</p>
+	<ul>
+	<li> Embedding image surround with line of border with 120% thick and green color.</li>
+	</ul>
+	<p> img { border: 1.2em solid #008000 }</p>
+	<ul>
+	<li> makes font color as green with 120% size of small's parent's font.</li> 
+	</ul>
+	<p> small{ font: 1.2em; color: green; }</p>
+	
+	<h2> Footer Section </h2>
+	<ul>
+	<li> Footer makes border silver color with thick line.</li>
+	</ul>
+	<p> footer { border: solid thick silver; }  </p>
+	
+	<h2> Class Section </h2>
+	<ul>
+	<li> Frame class sets font as arial first. Use helvetica if not available on browser at second. If both prior options not working then, use san-serif font.
+	    Frame class also font color is green, size 80% of its parent's font size and space between line is 200% of its parent's font size. </li>
+	</ul>
+	<p> .frame { font-family: arial, helvetica, sans-serif; font-size: .8em; line-height: 2em; color: green; }</p>
+	<ul>
+	<li> Underline class sets all text underlined. </li>
+	</ul>
+	<p> .underline{ text-decoration: underline; } </p>
+	
+</nav>
+</body>
+
+</html>
