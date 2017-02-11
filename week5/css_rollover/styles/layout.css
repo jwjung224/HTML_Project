@@ -1,0 +1,16 @@
+﻿/* Joon Jung, BIT 112, Spring 2014
+   CSS Layout */
+
+body { position: relative; min-width: 1000px; }   
+   
+#clientNavigation { position: absolute; top: 20px; right: 30px;}
+#clientNavigation { padding: 0.3em; }
+#clientNavigation ul { padding: 0; margin: 0; }
+#clientNavigation p { padding: 0; margin: 0; }
+#clientNavigation li { padding-left: 5px; }
+
+#mainNavigation { width: 8em; display: block; float: left; border-right: solid 2px; line-height: 2em; padding-top: 1em; }
+
+#content { margin-left: 13em; } /* I added margin left 13em; instead of 12em;. Please ignore line next. (float: left; width: 45em;)*/
+
+footer { clear: both; }

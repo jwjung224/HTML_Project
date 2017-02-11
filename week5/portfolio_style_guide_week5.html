@@ -1,0 +1,170 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name= "author" content="joonjung" />
+	
+	
+	<title>Portfolio Style Guide Week 5</title>
+	<link rel="stylesheet" href="../styles/typography.css" />
+	<link rel="stylesheet" href="../styles/layout.css" type="text/css" />
+	
+</head>
+
+<body>
+<header class="headerName">
+	<h1>Portfolio Style Guide</h1>
+</header>
+
+<!-- I validated this file and all of error occurred in line 28 to line 78. 
+	However, line 22 to line 82 are table that I actually copied from instruction in course page.
+	Because I did not know how to make table yet. -->
+<section>
+    <table width="575" border="1" align="center" cellpadding="20" cellspacing="0" summary="Website color Palette">
+      <caption>
+        <strong>Color Palette</strong>
+        </caption>
+      <tr>
+        <td width="340">background color for the entire page</td>
+        <td width="60">#483D8B</td>
+        <td width="47" bgcolor="#483D8B">&nbsp;</td>
+      </tr>
+      <tr>
+        <td>entire text color</td>
+        <td>#00FF00</td>
+        <td bgcolor="#00FF00">&nbsp;</td>
+      </tr>
+	  <tr>
+        <td>background color for the header h1 section</td>
+        <td>#FFFAFA</td>
+        <td bgcolor="#FFFAFA">&nbsp;</td>
+      </tr>
+	  <tr>
+        <td>text color for the header h1 section</td>
+        <td>#000080</td>
+        <td bgcolor="#000080">&nbsp;</td>
+      </tr>
+	  <tr>
+        <td>small text color</td>
+        <td>#ADFF2F</td>
+        <td bgcolor="#ADFF2F">&nbsp;</td>
+      </tr>
+      <tr>
+        <td> class rememberContext text color </td>
+        <td>#FFF5EE</td>
+        <td bgcolor="#FFF5EE">&nbsp;</td>
+      </tr>
+	  <tr>
+        <td> class titleSign text color </td>
+        <td>#F0FFF0</td>
+        <td bgcolor="#F0FFF0">&nbsp;</td>
+      </tr>
+      <tr>
+        <td>link text</td>
+        <td>snow</td>
+        <td bgcolor="snow">&nbsp;</td>
+      </tr>
+      <tr>
+        <td>link hover text</td>
+        <td>skyblue</td>
+        <td bgcolor="skyblue">&nbsp;</td>
+      </tr>
+      <tr>
+        <td>link visited</td>
+        <td>pink</td>
+        <td bgcolor="pink">&nbsp;</td>
+      </tr>
+      <tr>
+        <td>link active</td>
+        <td>orange</td>
+        <td bgcolor="orange">&nbsp;</td>
+      </tr>	  
+    </table>
+<nav class="mainNavigation">	
+	<h2> Overall Page Fomatting </h2>
+	
+	<p> font size is 12 point in general. background embedded custom blue image. Font set by comic sans at first. 
+		It uses comic sans ms if any web browser can't recognize comic sans. If neither comic sans nor comic sans ms does not work
+		then, it uses sans-serif font. If there is no background image, background color would be #483D8B (darkslateblue). 
+		Page font color is lime unless it specify color.</p>
+	<p> body { font: 12pt comic sans, comic sans ms, sans-seif;
+		background: url(../images/blue.jpg); background-color: #483D8B; color: lime; } </p>
+	
+	<p> This makes default link color as snow. </p>
+	<p> a:link { color: snow; } </p>
+	<p> This makes link that visited once color to skyblue. </p>
+	<p> a:visited { color: skyblue; } V
+	<p> a:hover makes link that I am placing over color as pink. </p>
+	<p> a:hover { color: pink; } </p>
+	<p> a:active makes link that I am clicking on color as orange. </p>
+	<p> a:active{ color: orange; } </p>
+	
+	
+	<h2> Header Section </h2>
+	<header>
+	<h1> h1 in header makes background color as snow and text aline at center. 
+		Also, word start letter is bit bigger than rest of word. Font color is navy.</h1>
+	</header>
+	<p> header h1 { background-color: snow; text-align: center;
+		color: navy; font-variant: small-caps; }</p>
+	<header>
+	<h2> h2 in header makes all text first character is little bigger than other character in one word. Also, 
+		all texts are underlined.</h2>
+	</header>
+	<p> header h2 { font-variant: small-caps; text-decoration: underline; }</p>	
+	
+	<h2> Nav Section </h2>
+	<ul>
+	<li> Unorderd list in nav set font as bold and background color as RGB 70,70,30 with 50% of transparent. 
+		Padding is 200% of its parent font size. Space between line is 175% of parent's font size.
+		Also, circle sign in front of every sentence removed by list-style-type as none.</li>
+	</ul>
+	<p> nav ul { font-weight: bold; background-color: rgba(70,70,30, 0.50); 
+		padding: 2em; line-height: 1.75em; list-style-type: none; }</p>
+	
+	<h2> Content Section </h2>
+	<p> I did not create specific Content ID but these selectors are what I use it for content.</p>
+	<ul>
+	<li> Embedding image surround with line of border with 120% thick and green color.</li>
+	</ul>
+	<p> img { border: 1.2em solid #008000 }</p>
+	<ul>
+	<li class="small"> makes font size as 120% size of small's parent's font with color #ADFF2F(greenyello).</li> 
+	</ul>
+	<p> small{ font: 1.2em; color: #ADFF2F;}</p>
+	
+	<h2> Footer Section </h2>
+	<p> There is no particular set up for footer section</p>
+	<p> footer { border: solid thick silver; }  </p>
+	
+	<h2> Class Section </h2>
+	<p> rememberContext class sets font as verdana first. Use arial if verdana is not available on browser. 
+		If both prior options not working then, use san-serif font. All characters are bold with font color seashell. 
+		Also, font size is 150% of its parent font size. </p>
+	<p> .rememberContext{ font-family: verdana, arial, Helvetica, sans-serif;
+		font-weight: bold; font-size: 1.5em; color: seashell; } </p>
+	
+	<p class="frame"> Frame class sets font as Lucida Console first. Use courier if not available on browser at second. 
+		If both prior options not working then, use monospace font. Frame class also has size 80% of its parent's font size 
+		and space between line is 200% of its parent's font size.</p>
+	<p class="frame"> .frame {  font-family: "Lucida Console", courier, monospace; font-size: .8em; line-height: 2em; }</p>
+	
+	<p class="headerName"> headerName class sets font as verdana
+		first. If verdana does not work then, set as arial. If both first and second is not working then, helvetica.
+		If the prior three font does not work, then using sans-serif font. Also this class has border at the bottom with silver color with think line.</p>
+	<p class="headerName"> .headerName { font-family: verdana, arial, helvetica, sans-serif; border-bottom: solid thick silver; }  </p>
+	
+	<p class="titleSign"> titleSign class sets font as verdana first. If verdana does not work then, set as arial. If both first and second is not working then, 
+	    helvetica. If the prior three font does not work, then using sans-serif font. All font comes with bold and align at center. with #F0FFF0(honeydew) color.</p>
+	<p class="titleSign">.titleSign { font-family: verdana, arial, helvetica, sans-serif; 
+		font-weight: bold; text-align: center; color: #F0FFF0; } </p>
+	
+</nav>
+</section>
+<footer>
+
+</footer>
+</body>
+
+</html>
