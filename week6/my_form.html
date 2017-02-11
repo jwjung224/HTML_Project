@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name= "author" content="joonjung" />
+	<title> HTML Forms </title>
+	<link rel="stylesheet" href="../styles/typography.css" type="text/css" />
+	<link rel="stylesheet" href="../styles/layout.css" type="text/css" />
+	<link rel="stylesheet" href="../styles/forms.css" type="text/css" />
+	<script type="text/javascript" src="../styles/date.js"></script>
+</head>
+
+<body onload="startTime()">
+ <section>
+        <p class="date" id="date"></p>
+ </section>
+ 
+ <header class="headerName">
+	<h1>Week 6</h1>
+ </header>	
+
+ <h2>forms</h2>
+  <form method="post" action="http://wwwebworks.biz/bit112/showFormData.php" name="initial">
+   <p>Please type your name</p>
+   <input  type="text" name="persons_name" size="40" maxlength="40" /> 
+
+   <input type="hidden" name="recipient" value="ian" /> 
+   <p>Please type your password</p>
+   <input type="password" name="password" size="40" maxlength="40" />
+  </form>
+
+  <form method="post" action="http://wwwebworks.biz/bit112/showFormData.php" name="initial">
+   <p>What is your opinion about proposition 1224123124?</p>
+   <textarea name="comments" cols="50" rows="2" >Place comments here </textarea>
+  </form>
+
+  <form method="post" action="http://wwwebworks.biz/bit112/showFormData.php" name="initial">
+   <p>Please pick your favorite fast-food chain</p>
+
+   <label><input type="checkbox" name="food1" value="mcdonald" />Mcdonald</label>
+
+   <label><input type="checkbox" name="food2" value="inandout" checked/>In & Out</label> 
+
+   <label><input type="checkbox" name="food3" value="burgerking"/>BurgerKing</label>
+
+   <label><input type="checkbox" name="food4" value="jackinthebox"/>Jack In the Box</label>
+
+   <label><input type="checkbox" name="food4" value="subway"/>Subway</label>
+  </form>
+
+  <form method="post" action="http://wwwebworks.biz/bit112/showFormData.php" name="initial">
+   <p>Do you read a newspaper once a day?</p>
+   <label><input type="radio" name="newsletter" value="yes" checked /> yes</label>
+   <label><input type="radio" name="newsletter" value="no" /> no </label>
+  </form>
+
+  <form method="post" action="http://wwwebworks.biz/bit112/showFormData.php" name="initial">
+   <p>what is your favorite color?</p>
+   <label> <select name="choose1">
+     <option value="red">Red</option>
+     <option value="blue">Blue</option>
+     <option value="green" selected>Green</option>
+   </select></label>
+
+   <label> Favorite Color(s): <select name="choosemore" size="3" multiple>
+     <option value="red">Red</option>
+     <option value="blue" >Blue</option>
+     <option value="green">Green</option>
+   </select></label>
+  </form>
+
+  <form method="post" action="http://wwwebworks.biz/bit112/showFormData.php" name="initial">
+
+   <input type="submit" name="Submit" value="Submit Form" />
+
+   <input type="reset" name="Reset" value="Clear Form" />
+
+  </form>
+ <section>	
+  <p><a href="../index.html">Back to Main Page</a></p>
+ </section>
+ 
+ <footer>
+  <small>Copyright &copy; 2014 by <a href="mailto:nomark82@hotmail.com" class="frame"> Joon Jung </a> &amp;
+  All rights reserved</small>
+ </footer>
+</body>
+
+</html>

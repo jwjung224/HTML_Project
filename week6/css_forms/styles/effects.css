@@ -1,0 +1,17 @@
+﻿/*Joon Jung, BIT 112 Spring, 2014*/
+
+#mainNavigation img{ border: none; }
+
+#mainNavigation li{ background: url(../images/nav_background.gif) no-repeat; padding: 0; margin: 0; 
+ display: block; width: 136px; height: 65px; }
+ 
+#mainNavigation .current{ background: url(../images/nav_background_flip.gif) no-repeat; margin: 0 0 0 -25px; }
+
+#mainNavigation li:hover{ background: url(../images/nav_background_flip.gif) no-repeat; }
+
+.movingHover a:hover{ position: relative; left: -20px; } 
+/*This was not in instruction. I coincidently found it. It does move left 20px of words such as "FAQs" stuff when I place my mouse over it.*/
+
+/* form */
+
+.submit { background: url(../images/nav_background.gif) no-repeat; padding: 0; margin: 0; }

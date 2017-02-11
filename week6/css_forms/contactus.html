@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+<html lang=en>
+<head>
+ <meta charset=utf-8>
+ <meta name="author" content="Brian Bansenauer" />
+ <!-- EDIT Page title below to add the name of the page after the colon, like "PRZ Law Offices:FAQs" to better identify the particular page in the browser -->
+ <title>PRZ Law Office:Contact Us </title>
+ <link rel="stylesheet" href="styles/normalize.css" />
+ <link rel="stylesheet" href="styles/format.css" />
+ <link rel="stylesheet" href="styles/typography.css" />
+ <link rel="stylesheet" href="styles/layout.css" type="text/css" />
+ <link rel="stylesheet" href="styles/effects.css" type="text/css" />
+ <script type="text/javascript" src="styles/date.js"></script>
+</head>
+
+<body onload="startTime()">
+<!-- Site heading information to identify the company and its purpose : showing on every page in the site -->
+ <header>
+  <h1>PEIZER, RICHARDS &amp; ZIONTZ, P.S.</h1>
+  <h2>Specializing in Personal Injury Lawsuits</h2>
+ </header>
+<!-- Main site navigation: showing on every page in the site -->
+ <nav>
+    <div id="navigation">
+        <ul id="mainNavigation">
+            <li class="movingHover"><a href="attorneys.html"><img src="images/attorneys.gif" alt="Attorneys"></a></li>
+            <li class="movingHover"><a href="practice.html"><img src="images/practice.gif" alt="practice"></a></li>
+            <li class="movingHover"><a href="offices.html"><img src="images/offices.gif" alt="Offices"></a></li>
+            <li class="movingHover"><a href="faqs.html"><img src="images/faqs.gif" alt="FAQs"></a></li>
+            <li class="movingHover"><a href="legallinks.html"><img src="images/legallinks.gif" alt="LegalLinks"></a></li>
+            <li class="current"><img src="images/contactus.gif" alt="ContactUs"></li>
+            <li class="movingHover"><a href="index.html"><img src="images/home.gif" alt="Home"></a></li>
+        </ul>        
+        <div id="clientNavigation">
+            <p class="date" id="date"></p>
+            <ul>
+            	<li><a href="#">Client Login</a></li>
+				<li><a href="#">Case Status</a></li>
+			</ul>
+        </div>
+    </div>
+ </nav>
+<!-- Content particular to each page in the site: Add page content in this section -->
+ <section id="content">
+   	<h1>Contact Us</h1>
+  <form action="http://wwwebworks.biz/bit112/showFormData.php" method="post">
+
+   <fieldset id="personal_data">
+       <legend>Personal Information</legend>
+       <label>First Name:<input name="firstname" type="text" tabindex="1"></label> 
+       <label>Last Name:<input name="lastname" type="text" tabindex="2"></label> 
+       <label>Email Address:<input name="email_address" type="text" tabindex="3"></label> 
+   </fieldset>
+
+   <fieldset id="current_help">
+       <legend>Current Legal Counsel</legend>
+       <p>Are you currently working with any legal professional?</p>
+       <label><input name="lawyer_now" 
+         type="radio" 
+         value="Yes" tabindex="35">Yes</label>
+       <label><input name="lawyer_now" 
+         type="radio" 
+         value="No" tabindex="35">No</label>
+         <p>If you are currently in litigation, please briefly describe the situation
+         and your current counsel in the space below:</p>
+       <textarea name="current_litigation" 
+         rows="10" cols="50"
+         tabindex="40">
+       </textarea>
+   </fieldset>
+
+   <fieldset id="legal_issues">
+       <legend>Legal Issue(s)</legend>
+       <label><input name="legal_issue_0" 
+         type="checkbox" 
+         value="Car Accident" tabindex="20">Auto Accident</label>
+       <label><input name="legal_issue_1" 
+         type="checkbox" 
+         value="Personal Injury" tabindex="21">Personal Injury</label>
+       <label><input name="legal_issue_2" 
+         type="checkbox" 
+         value="Small Claims Court" tabindex="22">Small Claims Court</label>
+       <label><input name="legal_issue_3" 
+         type="checkbox" 
+         value="Summons" tabindex="23">Summons</label>
+   </fieldset>
+   <input  class="submit" type="submit" value="Send Data">
+  </form>
+ </section>
+<!-- Overall site details: showing on every page in the site -->
+ <footer>
+  <p>Copyright &copy; 2012 by <a href="mailto:prz@przlaw.com">PEIZER, RICHARDS &amp; ZIONTZ, 
+    P.S.</a> All rights reserved</p>
+  <p>The information you obtain at this site is not, nor is it intended to be, legal advice.</p>
+ </footer>
+</body>
+
+</html>
