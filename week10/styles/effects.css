@@ -1,0 +1,72 @@
+﻿/*ff homepage effect Joon Jung    	*/
+
+footer {
+ background-color: #A1D1D1;
+}
+ 
+.mainNavigation {
+border-right: 7px solid #2F4F4F;
+}
+
+.mainNavigation {
+
+} 
+ 
+.mainNavigation img{
+ border: none;
+}
+ 
+.mainNavigation li{ 
+ /*background: url(../images/fflogo.jpg) no-repeat;*/
+ padding: 0; margin: 0; 
+ display: block;
+} 
+
+.mainNavigation .current{ 
+ /*background: url(../images/nav_background_flip.gif) no-repeat;*/ 
+ margin: 0 0 0 -20px;
+} 
+ 
+.movingHover a:hover { 
+ position: relative; left: -15px;
+} 
+
+.homeContents {
+ background-image: url(../images/FinalFantasy_13_Logo_tran.png);
+ background-position: center;
+ background-color: rgba(255,255,0, 0.30);
+}
+
+.ffBackground {
+ background-image: url(../images/FinalFantasy_13_Logo_tran.png);
+ background-position: center;
+}
+
+.charContents {
+ background: rgba(0,255,0,0.15);
+}
+
+.storyContents {
+ background: url(../images/FinalFantasy_13_Logo_tran.png) repeat-y;
+ background-position: center;
+ background-color: rgba( 0, 0, 152, 0.20);
+}
+
+.imageContents {
+ background: url(../images/FinalFantasy_13_Logo_tran.png) repeat-y;
+ background-position: center;
+ background-color: rgba(255,128,0, 0.6);
+}
+ 
+.ulContents {
+ background: url(../images/snow_summon.png) repeat-y;
+ background-position: center;
+ background-color: rgba(255, 204, 255, 0.4); /*#FFCCFF Light Pink*/
+ }
+ 
+.forum {
+ background: url(../images/fang_summon.png) repeat-y;
+ background-position: center;
+ background-color: rgba(0,0,255,0.15);
+}
+ 
