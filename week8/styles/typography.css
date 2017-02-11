@@ -1,0 +1,18 @@
+﻿/* Joon Jung Home Page Typography */
+header { 
+font-family: Garamond, san-serif;
+}
+
+header h1 { 
+ font-weight: bold; font-size: 2.5em;
+}
+
+body {
+ font: 12pt comic sans, comic sans ms, sans-seif;
+ color: #336666;
+ border: 5em;
+}
+ 
+.mainNavigation li{
+ padding: 2em;
+}

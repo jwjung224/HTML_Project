@@ -1,0 +1,17 @@
+﻿header { 
+ min-width: 1100pt;
+ min-height: 100pt;
+ }
+
+body {
+ background: url(../images/finalfantasy_13_logo.jpg);
+ background-repeat: no-repeat;
+ background-position: top;
+ padding: 3em;
+ }
+ 
+footer {
+ min-width: 600pt; 
+ padding: 1em 20em 1em 20em;
+ clear: both;
+ }

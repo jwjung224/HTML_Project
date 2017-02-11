@@ -1,0 +1,27 @@
+﻿/*ff homepage effect Joon Jung*/
+header { 
+ background-image: url(../images/ff13logo260px.jpg);
+ background-repeat: no-repeat; 
+ background-position: center-left; 
+ }
+
+footer {
+ background-color: #A1D1D1;
+}
+ 
+.mainNavigation img{
+ border: none;
+}
+ 
+.mainNavigation li{ 
+ /*background: url(../images/fflogo.jpg) no-repeat;*/
+ padding: 0; margin: 0; 
+ display: block;
+} 
+
+.mainSection{
+ background: black url(../images/finalfantasy_13_logo.jpg) no-repeat;
+ background-position: center;
+ opacity: 0.2; /* effect background image transparent (only works in jpg and png) */
+
+}
