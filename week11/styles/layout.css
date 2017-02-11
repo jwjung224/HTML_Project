@@ -1,0 +1,132 @@
+﻿header { 
+ min-width: 1100pt;
+ min-height: 100pt;
+ }
+
+body {
+ padding: 3em;
+ }
+ 
+footer {
+ padding: 1em;
+ clear: both;
+ overflow: auto;
+ }
+ 
+.headerName {
+ padding: 2em 1em;
+ }
+ 
+.mainNavigation {
+ float: left;
+ padding: 5em 3em 17em 3em;
+ margin: 0 1.5em 1em 1.5em;
+ }
+
+.homeContents {
+ float: left;
+ overflow: auto;
+ margin: 0em -100em 1em -1.3em;
+ padding: 3.55em 0.75em;
+ min-width: 800pt;
+
+ } 
+ 
+ .homeContents  img{
+  margin-top: 2em;
+  padding: 0em 0 0 24em;
+ }
+ 
+.ffBackground {
+ float: left;
+ margin: -46.75em 8.2em;
+ padding: 23em 34em;
+ }
+.ffContents {
+ min-width: 960pt;
+ padding: 7.5em 0em 5em 10em; 
+ }
+.squarelogo {
+ margin: -8em 0 -8em 20em;
+}
+ 
+.charContents {
+ width: 817pt;
+ height: 540pt;
+ float: left;
+ overflow: auto;
+ margin: 0 -100em 0 -1.25em;
+}
+.charText{
+ padding: 2em 1.5em;
+ width: 700pt;
+ height: 160pt;
+}
+.charImages {
+ width: 120pt;
+ height: 160pt;
+ float: left;
+ margin: 1em 2em;
+}
+.charTitle{
+ padding: 0.5em;
+}
+
+.storyContents {
+ width: 810pt;
+ height: 540pt;
+ float: left;
+ margin: 0 -100em 0 -1.25em;
+ overflow: auto;
+}
+.storyContents h2 {
+ padding: 2em;
+ color: white;
+}
+.storyContents .storyLeft {
+ float: left;
+ margin: 0 10px 10px 0;
+ padding: 10px;
+}
+.storyContents .storyRight {
+ float: right;
+ margin: 0 10px 10px 0;
+ padding: 10px;
+}
+
+.imageContents {
+ width: 812pt;
+ height: 540pt;
+ float: left;
+ overflow: auto;
+ margin: 0 -100em 0 -1.25em;
+}
+.ssBold {
+ margin: 0.5em;
+}
+
+.ulContents {
+ min-width: 800pt;
+ width: 790pt;
+ height: 540pt;
+ float: left;
+ overflow: auto;
+ margin: 0 -100em 0 -1.25em;
+ padding: 0 0 0 3em;
+}
+.ulContents h2{
+  margin-bottom: 1em;
+}
+
+.forum {
+ min-width: 800pt;
+ float: left;
+ overflow: auto;
+ margin: 0em -100em 1em -1.3em;
+ padding: 0.6em 0.5em; 
+ }
+
+.coverContents {
+ min-width: 700pt;
+ padding: 9em;
+} 
